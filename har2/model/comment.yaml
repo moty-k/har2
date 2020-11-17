@@ -1,0 +1,3 @@
+title: log.pages.title
+onContentLoad: log.pages.pageTimings.onContentLoad
+onLoad: log.pages.pageTimings.onLoad
