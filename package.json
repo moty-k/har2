@@ -1,8 +1,8 @@
 {
-  "name": "har2",
-  "version": "0.1.0",
-  "description": "",
-  "main": "./bin/ts-sample.js",
+  "name": "@moochan/har2",
+  "version": "0.1.2",
+  "description": "HAR file converter",
+  "main": "./bin/index.js",
   "scripts": {
     "precommit": "yarn lint && yarn test",
     "lint": "eslint ./har2/**/*.{ts,js}",
@@ -14,7 +14,7 @@
     }
   },
   "keywords": [],
-  "author": "moochan",
+  "author": "motoyakondo",
   "license": "MIT",
   "dependencies": {
     "js-yaml": "^3.14.0"
@@ -34,6 +34,17 @@
     "typescript": "^4.0.5"
   },
   "bin": {
-    "ts-sample": "./bin/ts-sample.js"
-  }
+    "ts-sample": "bin/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moochan-k/har2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moochan-k/har2/issues"
+  },
+  "homepage": "https://github.com/moochan-k/har2#readme"
 }
