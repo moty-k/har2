@@ -1,0 +1,10 @@
+resource_type: _resourceType
+response_size: response.bodySize
+time_total: time
+blocked: timings.blocked
+dns: timings.dns
+ssl: timings.ssl
+connect: timings.connect
+send: timings.send
+wait: timings.wait
+receive: timings.receive
