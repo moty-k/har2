@@ -14,7 +14,7 @@
     }
   },
   "keywords": [],
-  "author": "",
+  "author": "moochan",
   "license": "MIT",
   "dependencies": {
     "js-yaml": "^3.14.0"
