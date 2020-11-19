@@ -16,8 +16,8 @@ function exec(inPath: string, outPath: string) {
     const originalHarFile = fs.readFileSync(inPath).toString()
     const originalHarObj = JSON.parse(originalHarFile)
     // TODO: this path sholud be able to change.
-    const commentYaml = path.resolve('model/comment.yaml')
-    const bodyYaml = path.resolve('model/body.yaml')
+    const commentYaml = path.resolve(__dirname, '../model/comment.yaml')
+    const bodyYaml = path.resolve(__dirname, '../model/body.yaml')
     
     /** 
      * output stream 
