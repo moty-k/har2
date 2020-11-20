@@ -7,7 +7,9 @@
     "precommit": "yarn lint && yarn test",
     "lint": "eslint ./har2/**/*.{ts,js}",
     "test": "jest",
-    "release:minor": "git stash && git checkout master && yarn version --new-version minor && git push origin"
+    "release:patch": "git stash && git checkout master && yarn version --new-version patch && git push origin",
+    "release:minor": "git stash && git checkout master && yarn version --new-version minor && git push origin",
+    "release:major": "git stash && git checkout master && yarn version --new-version major && git push origin"
   },
   "husky": {
     "hooks": {
