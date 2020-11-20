@@ -1,12 +1,13 @@
 {
   "name": "@moochan/har2",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "HAR file converter",
   "main": "./bin/index.js",
   "scripts": {
     "precommit": "yarn lint && yarn test",
     "lint": "eslint ./har2/**/*.{ts,js}",
-    "test": "jest"
+    "test": "jest",
+    "version:minor": "yarn version --new-version minor"
   },
   "husky": {
     "hooks": {
